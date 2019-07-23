@@ -1,0 +1,51 @@
+/*.ins{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	margin-right: 10px !important;
+	overflow: hidden !important;
+	text-align: center;
+}
+.ins img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+} */
+
+.wrap-flex{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.ins {
+  flex: 25%;
+  max-width: 25%;
+  height: 150px;
+  padding: 4px 4px;
+  align-items: center;
+}
+
+.ins img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px){
+	.ins {
+	  flex: 100%;
+	  max-width: 100%;
+	  height: 150px;
+	  padding: 4px 4px;
+	}	
+}
+
+.reguler-text{
+	width: 100%;
+}
